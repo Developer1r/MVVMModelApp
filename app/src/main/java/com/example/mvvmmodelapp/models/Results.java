@@ -1,7 +1,5 @@
 package com.example.mvvmmodelapp.models;
 
-import android.text.TextUtils;
-
 public class Results {
 
     private String poster_path;
@@ -120,14 +118,6 @@ public class Results {
 
     public void setBackdrop_path(String backdrop_path) {
         this.backdrop_path = backdrop_path;
-    }
-
-    public String getYearOfRelease() {
-        if (!TextUtils.isEmpty(release_date)) {
-            return release_date.substring(0, 4);
-        } else {
-            return "";
-        }
     }
 
 }
