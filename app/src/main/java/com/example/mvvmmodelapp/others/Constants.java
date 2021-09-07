@@ -12,6 +12,6 @@ public class Constants {
 
     public static final String MOVIES = "movies";
 
-    public static final String API_KEY = "4e0be2c22f7268edffde97481d49064a";
+    public static final String API_KEY = "API_KEY";
 
 }
