@@ -19,8 +19,4 @@ public class ViewModelManager {
         return movieViewModel;
     }
 
-    public void setMovieViewModel(MovieViewModel movieViewModel) {
-        this.movieViewModel = movieViewModel;
-    }
-
 }
